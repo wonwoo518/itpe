@@ -8,9 +8,736 @@ RTE
   - eg. 보안사고 -> 실시간 대응 
 - 실시간으로 시장 변화에 민감하게 의사 결정을 내릴 수 있는 회사 총칭
 
+#####SDLC
+
+#####기획
+
+- Biz Case
+- SEM : 전략기업
+  - BSC Balanced Score Card
+
+#####EA / ITA (Infomation Technalogy Archtecture)
+
+#####ISP - Infomation Strategy Plan
+
+- AS-IS -> TOBE를 만들어가 가는 과정
+- SDLC , 소프트웨어 생명주기
+
+BPR
+
+Data Analysis
+
+- Big Data : 3V. Volume/Variety/Velocity
+  - HDFS : HBase
+    - No-SQL
+      - 데이터 모델링 - Random Forest / PCA / Bagging .. 
+        - Data Visualization
+          - 분석
+            - Data Mining
+              - 감독학습 - 데이터에 대해 정답이 있음. 
+                - Classification
+              - 무감독학습 - 데이터에 대한 정답이 없음. 
+                - K-means
+                - Clustering
+              - Deep Learning 
+                - CNN / RNN
+
+
+
+
+
+경영 Legacy System
+
+- ERP
+  - 웹 -> XRP, ERP2 
+- B2C 
+
+OLAP
+
+BI
+
+CRM - Customer Relationship Management
+
+SCM - Supply Chaing Management
+
+DRS - Disaster Recoverty System. 재해복구 시스템 
+
+- Secondary System 구축. 100~200km 내
+- 지표 : RTO / RPO/ RSO /RCO
+  - A-A
+  - A-S
+  - HOT / WARM / COLD site
+
+
+
+[3차시]
+
+#####PMO 
+
+- Project Management Office 
+- 성공률 / 생산성 향상 -> Governace
+
+
+
+#####IT Compliance 
+
+- 개인정보 : aaa -> bbb 로 바꿔야 함
+
+- have to 가이드 >> IT Compliance 
+
+
+
+Green IT
+
+Lean Startup
+
+ITSM : 운영관점. 
+
+- HW / SW / App SI 구축
+  - 소유하지 않고 빌려서 사용. -> Cloud Computing 
+
+
+
+Commerce
+
+- Gmarket, Auction, 11st, .. 
+- Escro Service 
+
+
+
+Social Commerce
+
+- 전자상거래 업체에서 셀러 상품을 구매. 
+
+
+
+광고
+
+- 광고시장의 75% -> 네이버 
+
+
+
+O2O
+
+- 해당기술
+  - 간편 결제
+  - GPS 
+  - BLE / GEOFENCE / NFC / GIS
+    - Fintech
+    - 인터넷 전문 은행 - Internet Primary Bank
+
+표준특허
+
+- FRAND 특허 
+- IP - Intellectual Property. 지적 재산권 
+
 ISP
 
-- SDLC , 소프트웨어 생명주기
+- IT Product Paradocs 
+
+
+
+RFI
+
+- 요구사항 정보 요청 
+
+RFP 
+
+Aggreement
+
+SoW - Statement of Work 
+
+SLA - Service Level Aggrement 
+
+SLM - Service Level Management
+
+
+
+ITSM 
+
+- RFI , RFP, Aggrement , SoW, SLM
+- Best Practice -> ITIL
+
+
+
+[4차시]
+
+## RTE
+
+Real Time Enterprise 
+
+실시간 기업 모델. 
+
+
+
+## ISP
+
+Infomation Startegy Plan 
+
+시장환경 분석  > 현황 분석 > ToBE모델  >이행 계획수립 
+
+단일 프로젝트에 대한 것
+
+- <-> EA. 전사 IT청사진 , EAMS 
+
+## EA/ITA
+
+- 호환성 높은 정보시스템환경 구축, 청사진 
+
+BA AA DA TA
+
+RM, SP
+
+EA Framework
+
+- IT Governance
+- Business Architecture
+- Application Architecture
+- Data Architecture
+- Security Architecture
+
+
+
+Governant EA 범정부 아키텍져
+
+## DRM
+
+Digital Reference Model
+
+
+
+## SEM
+
+전략적 경영정보 시스템
+
+- VBM - Value Based 
+- Value Chain
+- ABM
+- BSC 
+- KPI - Key Performace Indicator
+
+VBM
+
+- 경제적 가치, 시장부가가치, ROI
+
+BSC
+
+- Balanced Score Card
+- 재고내학
+- 재무적 관점
+- 고객 관점 
+- 내부 프로세스 관점
+- 학습과 성장관점 
+
+
+
+[5차시]
+
+BSC , IT BSC 
+
+Balanced Score Card
+
+BPR
+
+- 급진적인 재 설계
+
+Data Minining 
+
+- 기법 
+  - 연관성
+    - 지지도 = Pr(A 교집합 B), 두 항목이 동시에 거래된 수 
+    - 신뢰도 = Pr(A 교집합 B)/Pr(A), 
+    - 향상도
+  - 연속성 
+    - 시간의 흐름 연속 수행 
+  - 분류, Classification, 지도학습
+    - 이미 알려진 특정 그룹의 특징을 부여
+  - 군집화, Clustering, 비지도
+    - 상호간에 유사한 특성을 갖는 데이터들을 집단화
+  - 강화학습
+  - 의사결정 트리 
+- 
+
+MBO - Management By Objective
+
+- 성과관리 제도. BSC와 비교
+
+#####ANN
+
+##BCP
+
+24시간 비즈니스 연속성을 보장할 수 있는 체계
+
+- Mirrored site
+- Hot Site
+- Warm Site
+- Cold Site
+
+BIA : Business Impact Analysis 방안 수립 
+
+DRP : Disaster Recovery Plan 
+
+RPO - Recoverty Point Objet 
+
+
+
+BCM - 비즈니스 연속성 관리 
+
+- PDCA - Plan Do Check Act 
+
+- ISO-22301
+  - 조직의 상황 
+  - 리더십
+  - 계획 수립 
+  - 지원 
+  - 운영
+  - 성과평가
+  - 개선 
+
+
+
+## 전략 수립 도구 
+
+#####5 Forces 분석을 이용한 외부환경 분석 
+
+- 잠재적 진입 
+- 기존 기업간 경쟁
+- 구매자 
+- 공급자 
+- 대체품 
+
+7S Model
+
+- 전략
+- 공유가치
+- 시스템 
+- 조직 
+- 직원 
+- 기술 
+- 조직문화
+
+SWOT
+
+- 강점/약점/기회/위협
+
+문제해결 분석 방법론; 4C, 3C
+
+- 고객분석 / 환경분석 / 경쟁분석 / 기업분석
+
+MECE
+
+LISS
+
+CPND
+
+BABOK
+
+## 개방혁신과 오픈소스 
+
+
+
+## IT컨설팅 
+
+
+
+[6차시]
+
+
+
+##ERP (Enterprise Resource Planing)
+
+
+
+## CRM (Customer Relationship Management)
+
+운영 / 분석 / 협업 CRM
+
+
+
+##VRM
+
+
+
+## SCM ( Supply Chain Management)
+
+SCP  
+
+SCE 
+
+SCPM
+
+
+
+## PLM
+
+Product Lifecycle Management 
+
+부품정보관리 
+
+제품구성 정보관리 
+
+BOM정보관리
+
+도면문서 및 기술문서 고나리 
+
+프로젝트 관리 
+
+설계헙업 Workflow
+
+설계변경 관리 
+
+## EIP 
+
+Enterprise Information Portal 
+
+
+
+## EAP
+
+Enterprise Applicatoin Integration 
+
+SoA 
+
+EAI 통합단계 
+
+
+
+## BI  
+
+
+
+
+
+
+
+## DW
+
+주통시비 
+
+- 주제 중심적 
+- 통합적 
+- 시간가변적 
+- 비휘발성 
+
+구축단계 
+
+구축 방법 
+
+
+
+## IRM 
+
+Information Resource Management 
+
+정보기술 /정보시스템 /정보 
+
+
+
+## ILM
+
+Information Lifecycl Management 
+
+필요성 
+
+- 양 증가 
+- 스토리지 비용 절감 
+- 정보가치 변화 
+
+SAN 
+
+
+
+## OLAP
+
+
+
+## SLM
+
+Service Level Management 
+
+Statement of Work 
+
+
+
+## SLA 
+
+Service Level Agreement 
+
+서비스 수준 협약 
+
+
+
+
+
+## MTTF/MTBF
+
+
+
+[7차시]
+
+## IT Outsourcing 
+
+
+
+## Crowdsourcing 
+
+
+
+## ITIL
+
+IT서비스 관리에 대한 사실산 산업 표준. 
+
+구성요소
+
+- Service Support 
+
+  - 지원
+
+- Service Delivery 
+
+  - 실행
+
+     
+
+구축절차
+
+- 전략 
+
+- 설계
+
+- 운영 전환 
+
+- 운영 
+
+- 지속적인 개선 
+
+  
+
+ISO/IEC20000
+
+- ITIL의 국제 표준 
+
+##ITSM
+
+
+
+## MSP
+
+Monitoring Service Provider 
+
+
+
+## MRO
+
+Maintenance Repair, O.. 
+
+
+
+## DRS
+
+RTO
+
+RPO
+
+BIA
+
+
+
+## RTO
+
+Pain Threshold를 넘지 않는 시간안에 복구 
+
+
+
+## IT Governance
+
+COBIT - 불수관정 
+
+CMMi - 초관정량최
+
+
+
+## IT Compliance 
+
+규제를 준수하는 가정 
+
+- 개인정보 보호법 
+- 정보통신관리 규제법 
+
+## IT 융합 
+
+
+
+[8차시]
+
+ ## Crowd Funding 
+
+다수의 개인으로붜 자금 모금. 
+
+모금자 - 플랫폼 - 투자자 
+
+​    ————> 보상, 수익 
+
+
+
+## Growth Hacking 
+
+목표를 이루기 위해 해킹을 해서라도 이루겠다는 의지의 표현
+
+넥서스 경영과 대비됨. 
+
+
+
+##Escro 서비스 
+
+-> 매매보호 장치 
+
+-> = 소프트웨어 인치 제도 ,
+
+
+
+## 광고
+
+CPC
+
+- 클릭당 과금 
+
+CVR - 구매전환율
+
+- 광고 클릭 후 실제 구매,회원가입, 장바구니 등 특정행위로 이어지는 비율 
+- 4~5%, 평균2%
+
+
+
+프로그래매틱 바잉 
+
+- 사람대신 시스템과 프로그램으로 자동화한다는 의미 
+- 광고 계약 거래 방식
+
+
+
+## 비즈니스 플랫폼 
+
+##제품 플랫폼 
+
+## 생산 유통 플랫폼 
+
+##마케팅 플랫폼 
+
+admob 
+
+## 서비스 플랫폼 
+
+## 아이디어 플랫폼 
+
+
+
+[9차시]
+
+## O2O
+
+소비형태의 다양화 
+
+- 쇼루밍
+- 역쇼루밍 
+- 옴니쇼핑 
+
+
+
+UBER/ KAKA TAXI
+
+적용기술 
+
+- BLE / NFC / LBS / 지오펜싱 / 비콘 / 와이파이 
+
+
+
+## FinTech 
+
+모바일 결제 / 송금 /자산 관리 
+
+사례 
+
+- 인터넷 전문 은행 
+- 전자 결제 - 페이팔 
+- 송금분야 - 전자화폐 - 비트코인 / 이더리움 / 블록체인 
+
+규제환경 
+
+
+
+## 인터넷 전문 은행 - Internet Primary Back 
+
+비대면 인증에 대한 보안 문제 
+
+- 주민등록증으로 스캔 
+- 영상통화 
+- 소액결제 
+- 공인인증, 휴대폰 
+- Open API 통한 타 신용기관 인증 
+
+
+
+## 공유경제 
+
+서비스를 공유 
+
+- 우버택시
+
+
+
+## 표준특허
+
+서비스를 할때 반드시 사용해야만 하는 특허 
+
+절차 
+
+- 제안 - 예비 - 위원 - 조사 - 승인 
+
+
+
+특허 
+
+- 일반 / 표준 특허 
+
+
+
+FRAND 특허 
+
+- 라이선싱 남용 방지 
+
+
+
+## 지식재산권 
+
+평가항목
+
+
+
+##IT 생산성 패러독스 
+
+IT 투자가 증가했음에도 성장률이 저하됨 
+
+
+
+해결방안 
+
+- IT기획 - 투자 - 시스템 구축 - 업무 프로세스 - 업무 성과 - 경영성과 
+
+
+
+## 비즈니스 케이스 : 경제성 분석기법 
+
+- BCR
+  - 수익비용비율 
+- Payback Period 
+  - 투자 회수 기간 
+- IRR - Internal Rate of Return 
+  - 내부 수익률
+- NPV - Net Present Value 
+  - 현재 기준으로 환산한 수익와 투자금액의 차이 
+
+
 
 
 
