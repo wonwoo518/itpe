@@ -3720,3 +3720,105 @@ t근접성
   - 평문 선택 시 암호문을 얻을 수 있음. 
 - 선택 암호문 CCA (Choosen Ciphertext Attack)
   - 암호문 선택 시 평문을 얻을 수 있음
+
+
+
+
+
+[67차시]
+
+## DB
+
+#####Transaction 
+
+- ACID 
+  - Automic - All or Nothing 
+  - Consistency
+  - Isolation - Locking - os:semaphore , critical section 
+  - Durablity
+
+#####데이터 독립성
+
+- 외개내
+  - 외부적 레벨 
+  - 개념적 레벨 ( DB Table)
+  - 내부적 레벨 (실제 인스턴스)
+
+#####데이터 무결성 
+
+- 제약조건 - Constraint >> 개참속사키
+  - 개체 무결성 
+  - 참조 무결성 
+  - 속성 무결성 
+  - 사용자 정의
+  - 키 무결성 
+- 무결성 유지하기 위한 기법 
+  - DB회복 기법 
+    - 회로체그
+      - 로그기반 회복 기법 - 지연 갱신 / 즉시 갱신 
+      - 체크포인트 
+      - 그림자 회복 ( shadow paing)
+    - 동시성 제어기법 
+      - 안했을 때 문제점 : LDIC
+      - Locking + 2PL
+      - Timestamp ordering
+      - validation 
+
+#####DB유형
+
+- 분산 DB
+  - 투명성 
+    - 위복병분장
+      - 위치 투명성
+      - 중복 투명성
+      - 병행 투명성 
+      - 분할 투명성
+      - 장애 투명성
+  - 2PC. 2 Phase Commit 
+- Embedded DB
+- MM DB
+
+
+
+#### NoSQL
+
+- CAP 이론 
+  - Consistency, Availability, persistency
+- BASE 이론 
+  - Basically Available
+  - Soft State ( 잠시동안은 consistency가 맞지 않을 수 있음. )
+  - Eventually Consistency
+
+
+
+#####데이터 모델링
+
+- 현실세계 -> DB 
+- 개논물
+  - 개념적 모델링 
+    - ISP, EA등 요구사항 분석 단계의 산출물 
+  - 논리적 모델링 
+  - 물리적 모델링 
+
+
+
+##### 이상현상,  Anormally
+
+- 종류
+  - 삽입 이상 
+  - 갱신 이상 
+  - 삭제 이상 
+- 정규화
+  - 결정자 찾기 . 데이터 집합에서 키가 되는 것이 결정자 임
+  - 결정자 외에는 의존자가 됨 
+
+
+
+[68차시]
+
+
+
+
+
+
+
